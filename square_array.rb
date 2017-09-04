@@ -6,6 +6,7 @@ def square_array(array)
   square.array = array.collect{|num| num*num}
 
   puts "#{square_array}"
+  puts "hi"
 
 
 
