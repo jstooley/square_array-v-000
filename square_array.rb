@@ -3,11 +3,8 @@ def square_array(array)
 
   square_array = []
   x=0
-  array.each do |num|
-    square_array[x] = num*num
-    x += 1
-  end
-  square_array
+  square.array = array.collect{|num| num*num}
+  
 
 
 
