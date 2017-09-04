@@ -5,8 +5,7 @@ def square_array(array)
   x=0
   square.array = array.collect{|num| num*num}
 
-  puts square_array
-  puts array
+  puts "#{square_array}"
 
 
 
