@@ -4,7 +4,10 @@ def square_array(array)
   square_array = []
   x=0
   square.array = array.collect{|num| num*num}
-  
+
+  puts square_array
+  puts array
+
 
 
 
